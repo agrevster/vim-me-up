@@ -3,7 +3,7 @@
 set userdir=%USERPROFILE%
 set vimConfig=%USERPROFILE%\_vimrc
 set vimFiles=%USERPROFILE%\vimfiles
-set vimConfigUrl=""
+set vimConfigUrl="https://raw.githubusercontent.com/agrevster/vim-me-up/main/.vimrc"
 
 REM install vim executable
 curl https://ftp.nluug.nl/pub/vim/pc/vim90w32.zip -o vim_install.zip

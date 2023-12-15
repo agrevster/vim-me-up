@@ -12,7 +12,7 @@ REM !!!!!                           !!!!!
 REM 	INTERNET CONNECTION REQUIRED
 REM !!!!!                           !!!!!
 
-DEFINE $VIM_INSTALL_SCRIPT TODO
+DEFINE $VIM_INSTALL_SCRIPT https://raw.githubusercontent.com/agrevster/vim-me-up/main/install_vim.bat
 
 GUI r
 DELAY 500
