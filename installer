@@ -1,0 +1,24 @@
+REM ###########################################################
+REM #                                                         |
+REM # Title        : vim-me-up				      |
+REM # Author       : agrevster                                |
+REM # Version      : 1.0                                      |
+REM # Category     : Developer Utility                        |
+REM # Target       : Windows 10                               |
+REM #                                                         |
+REM ###########################################################
+
+REM !!!!!                           !!!!!
+REM 	INTERNET CONNECTION REQUIRED
+REM !!!!!                           !!!!!
+
+DEFINE $VIM_INSTALL_SCRIPT TODO
+
+GUI r
+DELAY 500
+STRINGLN CMD
+DELAY 500
+STRINGLN curl $VIM_INSTALL_SCRIPT -o install_vim.bat
+DELAY 2000
+STRINGLN install_vim.bat
+
