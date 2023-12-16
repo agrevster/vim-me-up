@@ -12,13 +12,11 @@ REM !!!!!                           !!!!!
 REM 	INTERNET CONNECTION REQUIRED
 REM !!!!!                           !!!!!
 
-DEFINE $VIM_INSTALL_SCRIPT https://raw.githubusercontent.com/agrevster/vim-me-up/main/install_vim.bat
 
 GUI r
 DELAY 500
 STRINGLN CMD
 DELAY 500
-STRINGLN curl $VIM_INSTALL_SCRIPT -o install_vim.bat
+STRINGLN curl https://raw.githubusercontent.com/agrevster/vim-me-up/main/install_vim.bat -o install_vim.bat
 DELAY 2000
 STRINGLN install_vim.bat
-
